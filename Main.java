@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, Worldddddd!");
 
-        ArrayList<LexicalToken> tokens=Lexer.fileToTokens("./src/source.c"); //récupere les tokens
+        ArrayList<LexicalToken> tokens=Lexer.fileToTokens(); //récupere les tokens
         
         for (LexicalToken token : tokens) {
             System.out.println("token -->" +  token.getValue() + "<");

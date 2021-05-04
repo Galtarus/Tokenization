@@ -181,8 +181,8 @@ public class Lexer {
 
     }
 
-    public static ArrayList<LexicalToken> fileToTokens(String file) throws IOException {
-        ArrayList<String> lines = readLines("./src/source.c");
+    public static ArrayList<LexicalToken> fileToTokens() throws IOException {
+        ArrayList<String> lines = readLines("./source.c");
         int cpt=1;
 
         for (String line : lines) {

@@ -3,8 +3,3 @@ int main(int parama, int paramb){
 
 
         return c;
-a}b
-c
-
-d
-
